@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Markdown的一些语法</title>
+      <link href="/2021/11/13/markdown%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E7%9A%84%E8%AF%AD%E6%B3%95%E7%BC%96%E8%BE%91(%E4%BA%8C)/"/>
+      <url>/2021/11/13/markdown%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E7%9A%84%E8%AF%AD%E6%B3%95%E7%BC%96%E8%BE%91(%E4%BA%8C)/</url>
+      
+        <content type="html"><![CDATA[<h1 id="总共有六级标题"><a href="#总共有六级标题" class="headerlink" title="总共有六级标题"></a>总共有六级标题</h1><p>分别是用#来进行区分，记得#后面必须加一个空格</p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>应用使用的是&gt;符号</p><blockquote><p>这是一段引用 </p></blockquote><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><blockquote><p>列表又可以分为无序列表和有序列表以及待完成可编辑列表</p></blockquote><h2 id="无序列表可以使用-或者＋号"><a href="#无序列表可以使用-或者＋号" class="headerlink" title="无序列表可以使用*或者＋号"></a>无序列表可以使用*或者＋号</h2><p>==注意符号后面要加空格==</p><ul><li>这是第一个列表</li><li>这是第二个</li><li>这是第三个</li></ul><h2 id="有序列表使用的是1-2"><a href="#有序列表使用的是1-2" class="headerlink" title="有序列表使用的是1. 2."></a>有序列表使用的是1. 2.</h2><ol><li>这是第一个</li><li>这是第二个</li></ol><h2 id="还有一个是可选择的列表，使用的是"><a href="#还有一个是可选择的列表，使用的是" class="headerlink" title="还有一个是可选择的列表，使用的是-[ ]"></a>还有一个是可选择的列表，使用的是-[ ]</h2><p>==注意是横杠加上方括号中间有一个空格，要在无序列表后面进行选择复选框==</p><ul><li><p>[x] 电子科技大学</p></li><li><p>[ ] 四川大学</p></li><li><p>[ ] 四川师范大学</p></li></ul><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>  ==使用的是三个反引号```位置就在ESC的下面1的按键位置前面==</p><pre class=" language-lang-python"><code class="language-lang-python">for i in range(6):    print("插入代码块的示例")</code></pre><h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>==数学公式使用的是四个美元符号,于此同时使用的是latex的格式==</p><script type="math/tex; mode=display">\Theta_k^l=\left|\frac{1}{M} \sum_{m=1}^M \frac{\partial J}{\partial z_{k, m}^l} z_{k, m}^l\right|</script><script type="math/tex; mode=display">\Theta_w=|J(w)-J(w \rightarrow 0)| \approx\left|\frac{\partial J}{\partial w} w\right|</script><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>==表格|:—-:|==表格分成三部分，表头，对齐格式，其中的冒号如果在左边就是左对齐，如果在右边就是右对齐</p><p>下面的是例子：</p><div class="table-container"><table><thead><tr><th style="text-align:center">姓名</th><th style="text-align:center">年龄</th><th style="text-align:center">成绩</th></tr></thead><tbody><tr><td style="text-align:center">杨</td><td style="text-align:center">22</td><td style="text-align:center">98</td></tr><tr><td style="text-align:center">吕</td><td style="text-align:center">23</td><td style="text-align:center">99</td></tr></tbody></table></div><h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>==脚注主要有两部分组成，脚注的名称和脚注的内容==</p><p>==使用的是<sup><a href="#fn_脚注名称" id="reffn_脚注名称">脚注名称</a></sup>==</p><h2 id="横线"><a href="#横线" class="headerlink" title="横线"></a>横线</h2><p>==横线使用的三根小横线—-，于此同时会自动在脚注前面生成横线（如果脚注比较近的话）==</p><p>例如</p><hr><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>==链接使用的的是方括号，[百度]（baidu.com），在后面可以用双引号进行注解==</p><p><a href="baidu.com" title="一个搜索引擎">百度</a></p><p>==不光是只有网页链接可以使用==</p><p>==链接还可以跳转到标题，使用的是方括号进行括起<a href="#列表">回到标题</a>==</p><p>请参考<a href="#列表">列表的三种方式</a></p><p>也可以使用标准的ULR:</p><p><a href="http://www.baidu.com">http://www.baidu.com</a></p><h2 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h2><p><img src="/img/markdown.png" alt="百度"></p><h2 id="一些强调方法"><a href="#一些强调方法" class="headerlink" title="一些强调方法"></a>一些强调方法</h2><p><em>使用的一对星号表示斜体进行强调</em></p><p><strong>使用两对星号表示加粗</strong></p><p>==使用一对反引号表示属于行内代码==</p><p><code>printf</code></p><p>==下划线使用的是HTML中的u标签==前面是是<u>,后面是</u></p><p><u>下划线</u></p><h2 id="甚至可以嵌入视频"><a href="#甚至可以嵌入视频" class="headerlink" title="甚至可以嵌入视频"></a>甚至可以嵌入视频</h2><div style="position: relative; width:100%; height:100%; padding-bottom: 0%;"><iframe height=498 width=510 src="//player.bilibili.com/player.html?aid=327623069&bvid=BV1JA411h7Gw&cid=171385214&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><p>本联系来自bilibili 中的up主==请叫我AXin==，所进行的一些示例，非常感谢这位大佬的仔细教学</p><blockquote id="fn_脚注名称"><sup>脚注名称</sup>. 放到了文章的最后，可以对其进行自动跳转，同时也会对其自动进行放到最后的操作<a href="#reffn_脚注名称" title="Jump back to footnote [脚注名称] in the text."> &#8617;</a></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown语法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+            <tag> 语法基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux C/C++后台开发的简历参考</title>
+      <link href="/2021/11/13/%E7%AE%80%E5%8E%86%E5%8F%82%E8%80%83%EF%BC%8CC++%E6%96%B9%E5%90%91%EF%BC%8C%E5%81%8F%E4%B8%80%E7%82%B9%E9%9F%B3%E8%A7%86%E9%A2%91%E6%B5%81%E5%AA%92%E4%BD%93%E6%96%B9%E5%90%91/"/>
+      <url>/2021/11/13/%E7%AE%80%E5%8E%86%E5%8F%82%E8%80%83%EF%BC%8CC++%E6%96%B9%E5%90%91%EF%BC%8C%E5%81%8F%E4%B8%80%E7%82%B9%E9%9F%B3%E8%A7%86%E9%A2%91%E6%B5%81%E5%AA%92%E4%BD%93%E6%96%B9%E5%90%91/</url>
+      
+        <content type="html"><![CDATA[<h1 id="liunx-C-C-服务端开发简历"><a href="#liunx-C-C-服务端开发简历" class="headerlink" title="liunx C/C++服务端开发简历"></a>liunx C/C++服务端开发简历</h1><h2 id="专业技能栏"><a href="#专业技能栏" class="headerlink" title="专业技能栏"></a><strong><em>专业技能栏</em></strong></h2><h3 id="第一种：专业技能方面书写"><a href="#第一种：专业技能方面书写" class="headerlink" title="第一种：专业技能方面书写"></a>第一种：专业技能方面书写</h3><p>1.熟悉.熟悉 C/C++开发，熟悉面向对象编程的思想，熟悉常用的设计模式，熟悉 STL:</p><p>2.熟悉Windows/Linux/UNIX 操作系统，对进程/线程管理、IPC以及内存管理有一定的了解</p><p>3.掌握Socket、epoll等多路复用模型；</p><p>5.然乙常用的数据结构，以及基本的查找和序算法:中</p><p>6.熟悉Mysql. redis. MongoDB 基本原理，并能在项目中熟练使用: .</p><p>7.熟悉UNIX/Linux环境，熟悉常用操作命令，了解Makefile, GDB 调试器，掌握正则表达式</p><p>8.熟悉GIT. svn工具的使用:。</p><h3 id="第二种：专业技能方面的书写"><a href="#第二种：专业技能方面的书写" class="headerlink" title="第二种：专业技能方面的书写"></a>第二种：专业技能方面的书写</h3><p>●熟练掌握C/C++ ,熟悉C++11.四年研发经验</p><p>●熟练掌握golang, 三年研发经验</p><p>●熟悉数据库mysqI和redis基本原理，能够在项目中熟练使用井进行性能优化和参数调优</p><p>●熟悉消息队列kalka和rabbitmq等 主流消息中间件,能够熟练在项目中使用</p><p>●熟悉Linux系统基本原理和网络协议，能够进行性能优化和参数调优</p><p>●熟悉分布式存储基本原理， 熟悉TFS, GFS, 和ceph基本原理</p><p>●熟忠zookeeperfDetcd等 分布式协同系统基本原理，能基于etcd开发服务注册中心</p><h3 id="第三种：专业技能方向上的书学"><a href="#第三种：专业技能方向上的书学" class="headerlink" title="第三种：专业技能方向上的书学"></a>第三种：专业技能方向上的书学</h3><p>●熟练掌握C/C++使用与技巧，代码规薇整洁。具有不错的代码晶味</p><p>●阅读过《深入理解计算机系统》，(unix 环境高级编程》等朽籍，计算机基础扎实</p><p>●阅读过Redis源码，了 解Redis网络模型和基本原理</p><p>●阅读过Nginx源码，了 解Nginx网络模型和基本原理。能基于Nginx进行二次开发</p><p>●掌握 zmq, libevent 等网络开源库的使用。熟悉网络编程</p><p>●熟悉Tcp/Ip协议，熟悉Http, Mqtt等协议，封装过Http协议。实现过Mqtt部分功能</p><p>●能独立承担起中小项目/模块/功能的设计.开发，调试，维护工作</p><p>●有较强的学习能力和自我驱动力，有较强分析和解决问题的能力</p><h3 id="第四种：专业技能上的书写（有点偏流媒体C-）"><a href="#第四种：专业技能上的书写（有点偏流媒体C-）" class="headerlink" title="第四种：专业技能上的书写（有点偏流媒体C++）"></a>第四种：专业技能上的书写（有点偏流媒体C++）</h3><p><strong>基础</strong>:掌握计算机网络、操作系统、软件工程基础课程，熟悉C/C++. 理解面向对象思想，掌握C++继承<br>和多态特性，熟悉c++11多线程编程，熟悉常用数据结构与算法，CET6， 熟练掌握英语读写。</p><p><strong>Linux</strong>:熟悉Linux下常用命令，shell 脚本，熟悉Linux 下gcc. gdb、 cmake、 makefile 等编程工具，<br>熟悉Linux多线程编程、并发网络服务，熟悉Linux 1/0复用select. poll. epoll 商并发模型。。</p><p><strong>网络</strong>:熟悉OSI七层模型和TCP/IP四层体系分层结构,掌握常见网络协议和流媒体协议: tcp. udp. http.<br>rtsp、rtcp. rtmp. hls. http-flv. webrtc,熟悉TCP的三次握手和四次挥手，了鲤TCP的流量控制和<br>拥高控制，不据数字签名原理、了解htps的安全机制的工作原形-ax.(Cf Serfr<br>Openresty. zookeeper 等常用中间件。</p><h2 id="项目栏（要尽可能写的详细，最好能将面试官有关问的问题囊括在详细的技术描述中）"><a href="#项目栏（要尽可能写的详细，最好能将面试官有关问的问题囊括在详细的技术描述中）" class="headerlink" title="项目栏（要尽可能写的详细，最好能将面试官有关问的问题囊括在详细的技术描述中）"></a><strong><em>项目栏（要尽可能写的详细，最好能将面试官有关问的问题囊括在详细的技术描述中）</em></strong></h2><h3 id="qt方向"><a href="#qt方向" class="headerlink" title="qt方向"></a><strong>qt方向</strong></h3><p>2021.10- 2022.01                                                     研究所                    C++软件开 发<br><strong>工作描述</strong>: 1. 使用Qt开发设备信息管理系统。2、使用Qt开发C/S模式的网络聊天程序。3、C++后端开发。<br><strong>主要工作</strong></p><p>1.使用Qt5和MySQL数据库编写了一个跨平台的设备信息管理系统，实现了设备出入库的管理。</p><p>2、使用Qt5实现网络聊天程序，程序为C/S模式，基于TCP进行通信。</p><p>3、维护C++后端服务程序，整理原有代码，按照需求实现新功能。</p><p><strong>个人收获</strong>:对Qt编程和数据库的使用有了更深的认识和理解。加深了C/S 模式的认识。基本掌握了Linux下C++<br>编程的能力，对一个项目的完整构建过程有了一定的了解。加强了工作中与人沟通交流的能力。</p><h3 id="后台开发"><a href="#后台开发" class="headerlink" title="后台开发"></a>后台开发</h3><p>Github:<br><strong>项目描述:基于Linux的轻量级、高性能、多线程的WEB服务器。</strong><br>主要工作: 1、利用I0复用技术epoll与线程池实现多线程的Reactor高并发模型;<br>2、利用正则匹配与状态机解析HTTP请求报文，实现处理静态资源的请求;<br>3、基于小根堆实现的定时器，关闭超时的非活动连接，降低处理器消耗;<br>4、利用单例模式与阻塞队列实现异步的高性能日志系统，记录服务器运行状态;<br>5、利用RAII 机制实现数据库连接池，减少数据库连接建立与关闭的开销，实现了用户注册登录功能。<br>个人收获: 1、熟悉了Linux系统的使用和C++网络编程的流程: 2、对TCP通信和Socket网络编程有了更深的理<br>解，对HTTP的服务过程有了更清晰的认识。</p><hr><p><strong>(2)基于跳表实现的轻量级键值型存储引擎</strong>（卡尔的项目，github上有）<br>Github:<br>项目描述:基于跳表实现的轻量级键值型存储引擎，使用C++11实现。<br>主要工作: 1、支持插入数据、删除数据、查询数据、范围查询、数据显示、数据存盘、文件加载、数据库大小显示.<br>等接口;<br>2、经随机读写测试，该跳表每秒可处理写请求数: 24W,每秒可处理读请求数: 20W。<br>个人收获: 1、加深了跳表这个数据结构的理解; 2.加强了键值型数据库的认识; 3、对Linux下C++项目的开发<br>有了更深的认识。</p><h2 id="自我评价部分（最后用于简历的提升）"><a href="#自我评价部分（最后用于简历的提升）" class="headerlink" title="自我评价部分（最后用于简历的提升）"></a><strong><em>自我评价部分（最后用于简历的提升）</em></strong></h2><p>自我评价部分可以写研究过liunx内核中的epoll红黑树的使用（最后用作简历项目的提升）</p><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230704114054940.png" alt="image-20230704114054940"></p><h1 id="面试自我介绍"><a href="#面试自我介绍" class="headerlink" title="面试自我介绍"></a>面试自我介绍</h1><p>​    尊敬的面试官，上午好，我叫杨忠健，电子科技大学自动化电子信息专业，今年研二。非常荣幸参加这次主管面。</p><p>研究生期间，我的项目主要是有关的AI软件系统设计以及神经网络在终端设备上的部署和加速。</p><p>在AI软件系统设计方面主要设计了涉及到对测井仪表读数识别和管理的系统，主要用于快速准确地识别和管理不同场景下的测井仪表数据。此外，系统还具有仪表管理、数据可视化、权限管理、异常监测等功能，并且已经构建了完整的数据处理流程，包括用户行为日志和业务数据采集、数据仓库、数据可视化、任务调度、即席查询、全面的数据治理等六大部分。系统利用Apache Airflow进行全流程任务调度，以及Prometheus进行指标实时查询。</p><p>另一部分工作内容则是神经网络加速以及部署到终端设备中。是在FPGA平台上使用Verilog部署了一个轻量化的垃圾分类网络，使得神经网络的运行是能在1.38w的低功耗上，拥有2498.5FPS的高性能。  。这个系统可以根据垃圾分类的结果控制垃圾桶上的电机旋转到对应的垃圾投放口，同时将分类结果通过网口返回给上位机进行显示。</p><hr><blockquote><p><strong>主要针对，分布式项目！对多个模块的日志进行管理…</strong><br>在传统项目中，如果在生产环境中，有多台不同的服务器集群，<br>如果生产环境需要通过日志定位项目的Bug的话，需要在每台节点上使用传统的命令方式查询，这样效率非常低下。</p></blockquote><h2 id="基于ELK与kafka的分布式工业日志系统的设计与实现"><a href="#基于ELK与kafka的分布式工业日志系统的设计与实现" class="headerlink" title="基于ELK与kafka的分布式工业日志系统的设计与实现"></a>基于ELK与kafka的分布式工业日志系统的设计与实现</h2><p> 线上地址 ：                                                    账号：                               密码：</p><p> 监控中心：                                                     账号：                                密码：</p><p>​     针对传统日志系统的不足，设计实现了基于ELK和kafka的分布式工业日志系统，采用分层的设计的思想，将日志系统分为收集层、缓冲层以及检索层：</p><p>主要工作包括：</p><p>​     （1）针对传统工业日志无法完成高并发处理日志请求的问题，采用Reactor事件驱动模式与线程池技术实现高并发处理日志请求，设计实现环形内存缓冲去降低日志文件磁盘I/O对服务器性能的影响</p><p>​      （2）设计了一个日志计算中心，基于Elasticsearch实现了日志数据的试试检索分析，提供了一个日志检索的可视化界面</p><p>​      （3）设计了一个日志缓存服务子系统，采用logstash实现对日志数据处理规则的灵活配置，基于分布式消息系统kafka实现日志数据的缓存队列</p><p>​       （4）对工业日志系统进行测试分析，验证</p><h1 id="C-人工智能方向"><a href="#C-人工智能方向" class="headerlink" title="C++ 人工智能方向"></a>C++ 人工智能方向</h1><blockquote><p>以我目前的水平来说，更多的应该把算法放在神经网络的落地应用上去，其中有一个FPGA的项目，其中涉及到的神经网路的加速，量化，部署，以及在硬件平台上的部署是需要进行详细阐述的</p><p>以及对各个神经网络基础之间的架构的理解，尤其是transformer架构的可视化，对于NLP任务去做的调整，attention是怎么实现的。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> liunx C/C++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 简历修改 </tag>
+            
+            <tag> liunx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
